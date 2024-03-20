@@ -13,6 +13,7 @@ public class PlayingCard {
   private final char suit; // 'S'=spade, 'H'=heart, 'D'=diamonds, 'C'=clubs
   private final int face; // a number between 1 and 13
 
+
   /**
    * Creates an instance of a PlayingCard with a given suit and face.
    * The face value is an integer between 1 and 13, where 11 represents the jack,
@@ -87,4 +88,8 @@ public class PlayingCard {
     hash = 31 * hash + getFace();
     return hash;
   }
+
+
+
+
 }
